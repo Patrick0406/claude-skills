@@ -1,0 +1,22 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Patrick0406",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Claude Code 本地技能库 - 提供 minimax-ui-design 等自定义技能",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "minimax-ui",
+      "description": "Minimax风格现代科技UI设计系统。适用于生成企业级管理系统、数据展示平台和SaaS产品界面。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/minimax-ui-design"
+      ]
+    }
+  ]
+}
